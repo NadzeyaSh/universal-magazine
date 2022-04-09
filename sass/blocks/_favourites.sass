@@ -1,0 +1,33 @@
+.favourites
+  &-wrapper
+    padding: 30px 25px 35px
+    background: #30363D
+    border-radius: 10px
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &-list
+    position: relative
+    width: 22%   
+    &:not(:last-child)::after 
+      position: absolute
+      content: ""
+      border-right: 1px solid $text-color
+      height: 100%
+      right: -20px
+      top: 0
+   
+    
+  &__link
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+    text-decoration: none
+    color: $light
+  &__article
+    display: block
+    margin-right: 15px
+    width: 154px
+    font-weight: 900
+    font-size: 14px
+    line-height: 20px

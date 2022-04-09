@@ -1,0 +1,683 @@
+@media (max-width: 1200px) 
+  .container
+    max-width: 960px  
+  .logo
+    &-text
+      display: none
+  .favourites
+    &__article
+      margin-right: 0
+  .card
+    padding: 25px 15px 30px 20px
+    &__background
+      &-first
+        width: 50%
+    &__image
+      height: 70%
+    &__news
+      width: 320px
+    &__title
+      // 
+    &__top
+      padding-bottom: 10px 
+    &__text
+      font-size: 13px
+      line-height: 16px
+  .tag
+    &-wrapper
+      padding: 15px 15px 0 15px
+      gap: 5px
+  .articles    
+    &-wrapper
+      gap: 20px
+    &__card
+      &:nth-child(4)
+        grid-column: span 2
+        grid-row: span 1
+      &:nth-child(8)       
+        grid-row: 2
+        grid-column: 4
+  
+  .readers
+    &-slider
+      width: 450px
+  .author
+    &__details
+      flex-wrap: wrap
+  .news
+    &__card
+      width: 650px
+    &-image
+      width: 250px
+  .article
+    &__body
+      width: 100%
+    &__author
+      &-card
+        position: initial
+        float: right
+        margin-left: 10px
+  .posts
+    &__item
+      width: 350px
+    &-item
+      position: inherit
+      width: 263px
+      display: block
+      float: right
+      margin-left: 10px
+
+    &-wrapper
+      flex-wrap: wrap
+      gap: 30px
+  .footer
+    &__list
+      width: 100%
+
+  // .swiper
+  //   &-slide
+  //     &__image
+  //       height: 100%
+  //       width: 100%
+  
+  // .reviews
+  //   &-slider
+  //     &__item
+  //       width: 700px
+ 
+@media (max-width: 992px) 
+  .card
+    &__social
+      &-icon
+        &:hover
+          box-shadow: none
+    &__news
+      &-image
+        width: 200px
+        height: 145px
+      // &-right
+      //   width: 100%
+      //   margin-left: 40px
+      //   font-weight: bold
+      //   font-size: 20px
+      //   line-height: 25px
+    // &__last
+    //   &-news
+    //     font-weight: bold
+    //     font-size: 20px
+    //     line-height: 25px
+    &-clear
+      display: none
+  .favourites   
+    &__article
+      &:hover
+        color: $light
+  .button, button
+    &:hover
+      box-shadow: none
+  .tags
+    &:hover
+      color: $dark
+  .footer
+    &__link
+      &:hover
+        color: $text-color
+        border-bottom: none
+        text-decoration: none
+    &-navbar
+      &__link
+        &:hover
+          color: $dark
+  .posts
+    &__image
+      &:hover    
+        box-shadow: none
+    &__title
+      &:hover    
+        color: $dark
+  .container
+    max-width: 720px 
+  .card
+    &__title
+      &:hover
+        color: $dark
+  .articles
+    &__card
+      &:hover    
+        box-shadow: none
+  
+  .navbar   
+    &-menu
+      &__link
+        &:hover
+          color: $light
+          border-bottom: none
+          text-decoration: none
+        &--dark
+          &:hover
+            color: $news-color
+      &__item
+        margin-right: 20px 
+        margin-left: 0   
+    &__request    
+      padding: 10px
+    &-request
+      padding: 10px
+  .favourites
+    &-wrapper
+      flex-wrap: wrap
+      gap: 20px
+    &-list
+      width: 40%
+      &:nth-child(odd)::after 
+        right: -28%
+      &:nth-child(even)::after 
+        border: none
+  .news
+    &-right
+      width: 100%
+    
+    &__card
+      width: 100%
+    &-tabs
+      &__body
+        width: 100%
+      &__list
+        &:nth-child(4)
+          padding-bottom: 15px
+    &-wrapper
+      flex-direction: column
+      gap: 15px
+  .articles    
+    &-wrapper
+      grid-template-columns: repeat(2, 1fr)
+    &__card
+      &:nth-child(1)
+        grid-column: span 2
+        grid-row: 1
+      &:nth-child(2)
+        grid-column: span 1
+        grid-row: span 2      
+      &:nth-child(3)
+        grid-column: span 1
+      &:nth-child(4)
+        grid-column: span 2
+      &:nth-child(6)
+        grid-column: 2
+      &:nth-child(8)
+        grid-column: 1
+  .readers
+    &-wrapper
+      grid-template-columns: repeat(3, 1fr)
+    &-slider
+      grid-row: span 2
+      grid-column: span 3
+      width: 100%
+  .posts
+   
+    &__item
+      width: 320px
+  
+    &-item
+      position: inherit
+      margin-bottom: 15px
+  
+  .article
+    &__body
+      padding-left: 60px
+    &-slider
+      height: 450px
+ 
+  .comments
+    &__block
+      margin-left: 60px
+      width: 600px
+  .opinion
+    &-wrapper
+      width: 100%
+  .container
+    &-wrapper
+      margin-left: 0
+  .footer
+    &-navbar
+      flex-wrap: wrap
+      gap: 10px
+    &-additional
+      flex-wrap: wrap
+      gap: 10px
+    &__menu
+      flex-wrap: wrap
+      // gap: 35px
+      &-block
+        margin-top: 20px
+        width: 33.3%
+        // width: 135px
+        &:nth-child(6) 
+          width: 33.3%
+
+
+    &__list
+      width: 100%
+  .main
+    &-article
+      &__title
+        padding-right: 0
+        font-size: 40px
+      &__text
+        padding-right: 10px
+          
+  
+@media (max-width: 767px)  
+  body
+    padding-top: 65px
+  .main
+    margin-top: 0
+
+  .container
+    max-width: 576px
+    width: 92%
+  .navbar 
+    &-dark
+      padding-bottom: 0
+      &--mobile
+        &-fixed
+          position: fixed
+          top: 0
+          left: 0
+          right: 0
+          z-index: 99  
+  .navbar 
+    padding-bottom: 0
+    &--mobile
+      &-fixed
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        z-index: 99
+    &-menu
+      &__list
+        &--mobile
+          &-hidden
+            display: none
+      &__item  
+        &--mobile
+          &-visible
+            display: flex
+    &-bottom
+      display: none
+      position: fixed
+      top: 86px
+      bottom: 0
+      left: 0
+      right: 0
+      background-color: $dark
+      &--visible
+        display: block
+        overflow: auto
+    &-menu
+      padding-top: 31px
+      &__list      
+        flex-direction: column
+        margin: 0 auto
+      &__item
+        margin-bottom: 20px
+        &--mobile                 
+          &-visible
+            display: flex    
+    &__request
+      &--mobile
+        &-hidden
+          display: none
+        &-visible
+          display: block
+    &-request
+      &--mobile
+        &-hidden
+          display: none
+        &-visible
+          display: block
+
+   
+  .menu-button
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    width: 16px
+    height: 11px
+    padding: 0
+    border: none
+    background-color: $dark
+    cursor: pointer
+    &__line
+      width: 16px
+      height: 1px
+      background-color: $light
+  .menu-but
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    width: 16px
+    height: 11px
+    padding: 0
+    border: none
+    background-color: $light
+    cursor: pointer
+    &__line
+      width: 16px
+      height: 1px
+      background-color: $dark
+  .user
+    margin-bottom: 10px
+  .news
+    &-tabs
+      &__wrapper
+        padding: 30px 7px 40px 40px
+      &__title
+        margin-bottom: 30px
+        font-size: 35px
+      &__list
+        padding: 17px 15px 10px
+    &__card
+      width: 100%
+
+      // &__text
+      //   display: none      
+      &__heading
+        padding: 20px 10px 10px 10px
+    &-image
+      width: 200px
+  .favourites
+    &__article
+      margin-right: 5px
+  .card
+    &__title
+      &-social
+        margin-bottom: 10px
+    &__news
+      width: 270px
+  .hot
+    &-news
+      &__title
+        font-size: 30px
+  .readers
+    &-slider
+      height: 550px
+  .newsletter
+    &__title
+      text-align: center
+  .main
+    &-article
+      &__title
+        font-size: 35px
+
+        padding-right: 0
+  .bookmark
+    &-title
+      top: 80px
+  .article
+    &__body
+      padding-left: 0
+    &__text
+      width: 90%
+    &-slider
+      height: 350px
+      &__button
+        width: 40px
+        height: 40px
+        border-radius: 50%
+ 
+  .posts
+    &__item
+      width: 100%
+    &-item
+      position: inherit
+    &-description
+      margin-bottom: 15px
+
+  .repost
+    width: 100%
+   
+
+  .comments
+    &__block
+      margin-left: 0
+      width: 100%
+    &-wrapper
+      flex-wrap: wrap
+      gap: 10px
+  .footer
+    &-navbar
+      &__list
+        flex-wrap: wrap
+  .modal
+    &__close
+      right: 35px
+    &__input
+      padding: 10px 0 10px 13px
+    &__message
+      min-width: 250px
+    &__dialog
+      padding: 30px 30px
+@media (max-width: 576px)
+  .container
+    width: 88%
+  .navbar
+    &-menu
+      padding-top: 10px
+    &-bottom
+      top: 65px
+  .main
+    padding-top: 10px
+    &-article
+      &__top
+        flex-wrap: wrap
+      &__head
+        margin-right: 0
+        margin-left: 40px
+  .bookmark
+    &-title
+      top: 50px
+      left: auto
+      right: 0
+  .news
+    &__marker
+      top: 230px
+    &__link
+      flex-direction: column
+      gap: 15px
+    &-tabs
+      flex-direction: column
+      &__title
+        font-size: 30px
+      &__heading
+        display: none
+      &__wrapper
+        padding: 20px 5px 20px 25px
+      &__ul
+        display: flex
+        flex-direction: column
+        // align-items: flex-start
+        // justify-content: space-around
+        // height: 100%
+      &__item
+        width: 100%
+      &__list
+        // border-top: none
+        border-right: 1px solid $tabs-border
+        padding: 10px 7px 19px
+        &:nth-child(5)
+          padding-top: 10px
+          padding-bottom: 15px
+      &__right
+        width: 100%
+    &-image
+      width: 100%
+  .favourites
+    &__link
+      &::after
+        display: none
+    &-list
+      width: 100%
+      &:not(:last-child)::after 
+        position: absolute
+        content: ""
+        border-bottom: 1px solid $text-color
+        width: 100%
+        top: 10px
+        left: 0
+        border-right: none
+  .articles    
+    &-wrapper
+      grid-template-columns: 1fr
+      grid-gap: 15px
+    &__card
+      &:nth-child(1)
+        grid-column: span 1
+      &:nth-child(4)
+        grid-column: span 1
+      &:nth-child(5)
+        padding-top: 280px
+      &:nth-child(6)
+        grid-column: 1
+  .card
+    &__bottom
+      flex-wrap: wrap
+    &__message
+      margin-left: 0
+   
+     
+    &__news
+      width: 100%
+      &-image
+        width: 60px
+        height: 60px
+    &-left
+      margin-bottom: 20px
+    &-clear
+      display: block
+  .readers
+    &-wrapper
+      grid-template-columns: 1fr
+    &-article
+      grid-column: 1
+    &-slider
+      grid-column: 1
+      height: 450px
+  .slide
+    &-title
+      font-size: 30px
+      line-height: 125%
+
+  .newsletter
+    &__title
+      font-size: 30px
+      line-height: 40px
+    &__search
+      flex-direction: column
+      gap: 15px
+      align-items: flex-start
+      width: 100%
+    &__input
+      width: 100%
+      &-group
+        width: 100%
+  .home
+    display: none
+  .navigation
+    &__text
+      display: none
+  .article
+    &__author
+      &-card
+        width: 100%
+    &__body
+      padding-left: 0
+      width: 100%
+    &__text
+      font-size: 14px
+      line-height: 167%
+    &-slider
+      height: 250px
+    &__tag
+      flex-wrap: wrap
+      display: flex
+      gap: 10px
+  .comments
+    &__text
+      font-size: 14px
+      line-height: 167%
+    &__avatar
+      width: 50px
+      height: 50px
+    &__title
+      font-size: 25px
+      line-height: 30px
+    &__count
+      font-size: 25px
+      line-height: 30px
+    &__item
+      &:nth-child(3)        
+        padding-left: 25px
+  .opinion
+    &__image
+      margin-right: 10px
+      width: 50px
+      height: 50px
+    &-wrapper
+      padding: 20px 20px 25px 20px
+  .posts
+    &-item
+      width: 100%
+  .buttons
+    &-group
+      flex-wrap: wrap
+      gap: 10px
+  .slider
+    &-block
+      &__bottom
+        flex-direction: column
+      &__user
+        padding-left: 15px
+        border-left: none
+        border-top: 1px solid $tabs-border
+      &__text
+        padding: 15px 15px
+        // overflow: hidden
+        // text-overflow: ellipsis
+        // white-space: nowrap
+  .repost
+    padding-bottom: 30px
+
+  .footer
+    &__menu
+      flex-wrap: wrap
+      &-block
+        width: 50%
+    &-navbar
+      &__left
+        flex-wrap: wrap
+      &__list
+        flex-wrap: wrap
+        gap: 10px
+      &__link
+        margin-left: 0
+  .modal
+    &__close
+      right: 35px
+    &__input
+      padding: 10px 0 10px 13px
+    &__message
+      min-width: 250px
+    &__dialog
+      padding: 30px 30px
+   
+      
+
+    
+
+    
+
+

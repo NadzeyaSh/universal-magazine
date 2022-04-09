@@ -1,0 +1,104 @@
+.readers
+  padding-top: 60px
+  padding-bottom: 60px
+  background-color: $dark  
+  &-wrapper
+    display: grid
+    grid-gap: 30px
+    grid-template-columns: repeat(4, 1fr)
+  &-slider
+    border-radius: 10px
+    overflow: hidden
+    grid-column: span 2
+    grid-row: span 3
+    width: 100%
+  &-article
+    grid-column: span 2
+    grid-row: span 2
+    background-image: url(../img/readers.webp)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+  &__left
+    padding-top: 10px
+    padding-left: 10px
+    padding-bottom: 20px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-start
+    height: 100%
+    max-width: 243px
+
+  &__slide
+    position: relative
+    height: 100%
+    width: 100%
+    object-fit: cover
+    &-block
+      display: flex
+      flex-direction: column
+      align-items: center
+      position: absolute
+      margin-top: 50px
+      display: flex
+      align-items: center
+      flex-direction: column
+      width: 100%
+      height: 100%  
+      z-index: 3
+  &__button
+    margin-top: 34px
+    display: flex
+    align-items: center
+  
+  &__label
+    top: 18px
+    left: 18px
+  &__sl  
+    width: 100%
+    // background-image: url(../img/slide-1.jpg)
+    // background-repeat: no-repeat
+    // background-size: cover
+    // background-position: center
+.title
+  text-align: center
+  color: $light
+  font-size: 30px
+.swiper 
+  width: 555px
+  height: 570px
+  &-slide
+    width: 100%
+    height: 100%
+.slide
+  &-user
+    flex-direction: column
+    align-items: center
+  &-title
+    margin-top: 30px
+    margin-bottom: 45px
+    padding-left: 10px
+    padding-right: 10px
+    text-align: center
+    font-family: Roboto Slab
+    font-style: normal
+    font-weight: bold
+    font-size: 40px
+    line-height: 50px
+    color: $light
+  &-icon
+    margin-right: 8px
+  &-count
+    margin-left: 8px
+    font-size: 14px
+    line-height: 20px
+.user
+  &-name
+    margin-top: 8px
+.readers-pagination
+  padding-bottom: 35px
+.card
+  &-title
+    margin-bottom: 15px
+ 
